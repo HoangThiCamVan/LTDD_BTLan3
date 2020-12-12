@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/bt_tl_login"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#FAFAFA"
+            android:drawableLeft="@drawable/ic_tl"
+            android:paddingLeft="15dp"/>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Chào bạn,"
+            android:textSize="30sp"
+            android:textColor="#151515"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Nhập số điện thoại để tiếp tục."
+            android:textSize="20sp"
+            android:textColor="#151515"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:drawableLeft="@drawable/laco"
+            android:background="@drawable/button"
+            />
+        <EditText
+            android:layout_marginLeft="15dp"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:hint="Số điện thoại"
+            android:textSize="20sp"
+            android:background="@drawable/button"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Tiếp tục"
+            android:textSize="20sp"
+            android:background="@drawable/button_em"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+
+            />
+        <Button
+            android:id="@+id/bt_boqua"
+            android:textAllCaps="false"
+            android:layout_marginTop="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Bỏ qua"
+            android:textSize="20sp"
+            android:textColor="#0040FF"
+            android:gravity="center"
+            android:background="#FAFAFA"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

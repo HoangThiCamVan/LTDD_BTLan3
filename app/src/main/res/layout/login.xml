@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/bgr"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Chào bạn,"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#1C1C1C"/>
+        <TextView
+            android:layout_marginLeft="30dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Nhập số điện thoại để tiếp tục"
+            android:textSize="20sp"
+            android:textColor="#1C1C1C"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        <Button
+
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:drawableLeft="@drawable/laco"
+            android:background="@drawable/button"
+            />
+        <Button
+            android:id="@+id/bt_sdt"
+            android:layout_marginLeft="15dp"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:hint="Số điện thoại"
+            android:textSize="20sp"
+            android:background="@drawable/button"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:text="Hoặc đăng nhập bằng"
+        android:textSize="20sp"
+        android:textColor="#1C1C1C"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:text="Facebook"
+            android:textSize="20sp"
+            android:background="@drawable/button_fb"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+
+
+            />
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:text="Email"
+            android:textSize="20sp"
+            android:background="@drawable/button_em"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/bt_boqua_ologin"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Bỏ qua"
+            android:textSize="20sp"
+            android:textColor="#0040FF"
+            android:gravity="center"
+            android:background="#FAFAFA"
+            />
+    </LinearLayout>
+
+</LinearLayout>

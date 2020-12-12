@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            android:src="@drawable/ic_tk"
+            />
+
+            <Button
+                android:id="@+id/bt_dangnhap"
+                android:gravity="left"
+                android:textAllCaps="false"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="19dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Đăng nhập"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#151515"
+                android:background="#FAFAFA"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_baseline_stars_24"
+            android:text="The Coffee House Rewards"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:textSize="23sp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="#FFFFFF"
+            android:paddingTop="12dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:text="Thông tin tài khoản"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:textSize="23sp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="#FFFFFF"
+            android:paddingTop="12dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_baseline_queue_music_24"
+            android:text="Nhạc đang phát"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:textSize="23sp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="#FFFFFF"
+            android:paddingTop="12dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_baseline_history_24"
+            android:text="Lịch sử"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:textSize="23sp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="#FFFFFF"
+            android:paddingTop="12dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_baseline_camera_24"
+            android:text="Giúp đỡ"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:textSize="23sp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="#FFFFFF"
+            android:paddingTop="12dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_baseline_brightness_low_24"
+            android:text="Cài đặt"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:textSize="23sp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:background="#FFFFFF"
+            android:paddingTop="12dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="230dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bt_tintuc"
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:drawableTop="@drawable/ic_tintuc"
+            android:background="@drawable/buttonfooter"
+            android:text="Tin tức"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            />
+        <Button
+            android:id="@+id/bt_dathang"
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:drawableTop="@drawable/ic_dathang"
+            android:background="@drawable/buttonfooter"
+            android:text="Đặt hàng"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/bt_cuahang"
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:drawableTop="@drawable/ic_cuahang"
+            android:background="@drawable/buttonfooter"
+            android:text="Cửa hàng"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/bt_taikhoan"
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:drawableTop="@drawable/ic_taikhoan"
+            android:background="@drawable/buttonfooter"
+            android:text="Tài khoản"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

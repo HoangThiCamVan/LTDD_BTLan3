@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+        <Button
+            android:id="@+id/bt_tl"
+            android:layout_marginLeft="15dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:drawableLeft="@drawable/ic_tl"
+            android:background="#FAFAFA"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coupon của bạn"
+            android:layout_marginLeft="95dp"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+   <LinearLayout
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:orientation="horizontal">
+       <EditText
+           android:layout_marginLeft="15dp"
+           android:background="@drawable/button"
+           android:layout_width="280dp"
+           android:layout_height="match_parent"
+           android:hint="Nhập mã khuyến mãi"
+           android:gravity="center"
+           android:textSize="18sp"/>
+       <Button
+           android:textAllCaps="false"
+           android:layout_marginLeft="15dp"
+           android:background="@drawable/button_chitiet"
+           android:layout_width="100dp"
+           android:layout_height="match_parent"
+           android:text="Áp dụng"
+           android:gravity="center"
+           android:textSize="18sp"
+           android:textColor="#FF4000"/>
+
+   </LinearLayout>
+    <ListView
+        android:id="@+id/lv_coupon"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

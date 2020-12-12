@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainDatHang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".list_food">
+        <TabHost
+            android:id="@+id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <!--Tab widget để chọn tab-->
+                <!--FrameLayout  chứa dữ liệu của activity-->
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFCFC" />
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:layout_height="match_parent">
+                    <!--for tab 1-->
+                    <LinearLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="430dp"
+                        android:layout_height="560dp"
+                        android:background="#CCCCCC"
+                        android:orientation="vertical">
+
+                        <GridView
+
+                            android:id="@+id/gv_phobien"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="35dp"
+                            android:numColumns="2"
+
+                            android:horizontalSpacing="15dp"
+                            android:verticalSpacing="10dp" />
+                    </LinearLayout>
+
+                    <!--for tab 2-->
+                    <LinearLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="430dp"
+                        android:layout_height="560dp"
+                        android:background="#CCCCCC"
+                        android:orientation="vertical">
+
+                        <!--Text View  để áp dụng văn bản vào tab-->
+                        <GridView
+
+                            android:id="@+id/gv_thucuong"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="35dp"
+                            android:numColumns="2"
+
+                            android:horizontalSpacing="15dp"
+                            android:verticalSpacing="10dp" />
+                    </LinearLayout>
+
+                    <!--for tab 3-->
+                    <LinearLayout
+                        android:id="@+id/tab3"
+                        android:layout_width="430dp"
+                        android:layout_height="560dp"
+                        android:background="#CCCCCC"
+                        android:orientation="vertical">
+
+                        <!--Text View để áp dụng văn bản vào tab-->
+                        <GridView
+
+                            android:id="@+id/gv_doan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="35dp"
+                            android:numColumns="2"
+
+                            android:horizontalSpacing="15dp"
+                            android:verticalSpacing="10dp" />
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="620dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bt_tintuc"
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:drawableTop="@drawable/ic_tintuc"
+            android:background="@drawable/buttonfooter"
+            android:text="Tin tức"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            />
+        <Button
+            android:id="@+id/bt_dathang"
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:drawableTop="@drawable/ic_dathang"
+            android:background="@drawable/buttonfooter"
+            android:text="Đặt hàng"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/bt_cuahang"
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:drawableTop="@drawable/ic_cuahang"
+            android:background="@drawable/buttonfooter"
+            android:text="Cửa hàng"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/bt_taikhoan"
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:drawableTop="@drawable/ic_taikhoan"
+            android:background="@drawable/buttonfooter"
+            android:text="Tài khoản"
+            android:textAllCaps="false"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
